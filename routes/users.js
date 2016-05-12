@@ -13,8 +13,8 @@ router.get('/', function(req, res) {
 
 
 
-router.route('/queryAll2')
-    .get(userDao.queryAll2);
+router.route('/queryAll')
+    .get(userDao.queryAll);
 
 
 
