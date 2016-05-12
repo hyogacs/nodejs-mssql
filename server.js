@@ -5,7 +5,6 @@ var http = require('http');
 var express = require('express');
 var morgan = require('morgan');
 var database = require('./connect_aws.js');
-//var api = require('./server/api.js');
 var routes = require('./routes/index');
 var users = require('./routes/users');
 var openHttpConnections = {};
